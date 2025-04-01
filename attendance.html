@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="attendance.html">Attendance</a>
+    </nav>
+
+    <h1>Staff Attendance System</h1>
+    <button onclick="recordAction('Check-in')">Check In</button>
+    <button onclick="recordAction('Check-out')">Check Out</button>
+
+    <h2>Record List</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Action</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody id="recordTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
