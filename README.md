@@ -1,2 +1,2 @@
-# library-system
+# Staff control
 # For testing
